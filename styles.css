@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 20px;
+  border: 10px groove black;
+}
