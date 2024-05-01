@@ -1,0 +1,22 @@
+.footer {
+  background-color: transparent;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__icon {
+  color: gold;
+}
+
+.active {
+  color: orange;
+  border-bottom: 3px solid orange;
+}

@@ -1,0 +1,40 @@
+.quetion-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 5px solid black;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  position: relative;
+  background-color: azure;
+}
+.answer {
+  display: none;
+}
+
+.button-answer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.822);
+  font-family: cursive;
+  width: 150px;
+  border-radius: 10px;
+  align-self: center;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+.tags {
+  display: flex;
+  list-style: none;
+}
+.tag {
+  margin-right: 10px;
+}
+
+.icon_postion {
+  color: gold;
+  position: absolute;
+  right: 0px;
+  top: -8px;
+}
